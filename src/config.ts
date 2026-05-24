@@ -1,4 +1,4 @@
-import { DataType, PretrainedModelOptions } from "@huggingface/transformers";
+import { type DataType, type PretrainedModelOptions } from "@huggingface/transformers";
 
 export interface TextSplitterConfig {
     chunkSize: number;
